@@ -6,6 +6,8 @@
 //  Copyright © 2019 FIAP. All rights reserved.
 //
 
+/*
+ Comentada depois do inicio da criacao da persistencia (Core Data)
 import Foundation
 
 struct Movie: Codable {
@@ -28,4 +30,4 @@ struct Movie: Codable {
     } */
     
     
-}
+}*/

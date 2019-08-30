@@ -19,9 +19,9 @@ class ViewController: UIViewController {
     
     var movie: Movie!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        ivPoster.image = UIImage(named: movie.image)
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        ivPoster.image = movie.image
         lbTitle.text = movie.title
         lbDuration.text = movie.duration
         lbCategories.text = movie.categories
@@ -45,6 +45,11 @@ class ViewController: UIViewController {
         
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let vc = segue.destination as? MovieRegisterViewController {
+            vc.movie = movie
+        }
+    }
     
 }
 

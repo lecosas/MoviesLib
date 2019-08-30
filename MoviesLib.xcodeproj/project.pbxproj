@@ -16,6 +16,10 @@
 		AC6BB3292306161A000E3ECE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6BB3272306161A000E3ECE /* Main.storyboard */; };
 		AC6BB32B2306161B000E3ECE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC6BB32A2306161B000E3ECE /* Assets.xcassets */; };
 		AC6BB32E2306161B000E3ECE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6BB32C2306161B000E3ECE /* LaunchScreen.storyboard */; };
+		ACAF00B823188C280083AF17 /* MoviesLib.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACAF00B623188C280083AF17 /* MoviesLib.xcdatamodeld */; };
+		ACAF00BA23188D100083AF17 /* UIViewController+Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAF00B923188D100083AF17 /* UIViewController+Context.swift */; };
+		ACAF00BC231891FC0083AF17 /* Movie+image.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAF00BB231891FC0083AF17 /* Movie+image.swift */; };
+		ACAF00BE2318A4E50083AF17 /* MovieRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAF00BD2318A4E50083AF17 /* MovieRegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		AC6BB32A2306161B000E3ECE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC6BB32D2306161B000E3ECE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC6BB32F2306161B000E3ECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACAF00B723188C280083AF17 /* MoviesLib.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoviesLib.xcdatamodel; sourceTree = "<group>"; };
+		ACAF00B923188D100083AF17 /* UIViewController+Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Context.swift"; sourceTree = "<group>"; };
+		ACAF00BB231891FC0083AF17 /* Movie+image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+image.swift"; sourceTree = "<group>"; };
+		ACAF00BD2318A4E50083AF17 /* MovieRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,14 +72,18 @@
 			children = (
 				AC04A4D8230CAC4E0089DB0C /* movies.json */,
 				AC6BB3232306161A000E3ECE /* AppDelegate.swift */,
+				ACAF00B923188D100083AF17 /* UIViewController+Context.swift */,
 				AC6BB3252306161A000E3ECE /* ViewController.swift */,
 				AC6BB3272306161A000E3ECE /* Main.storyboard */,
+				ACAF00BD2318A4E50083AF17 /* MovieRegisterViewController.swift */,
 				AC04A4DE230CCC520089DB0C /* MovieTableViewCell.swift */,
+				ACAF00BB231891FC0083AF17 /* Movie+image.swift */,
 				AC6BB32A2306161B000E3ECE /* Assets.xcassets */,
 				AC6BB32C2306161B000E3ECE /* LaunchScreen.storyboard */,
 				AC6BB32F2306161B000E3ECE /* Info.plist */,
 				AC04A4DA230CAD000089DB0C /* Movie.swift */,
 				AC04A4DC230CBADB0089DB0C /* MoviesTableViewController.swift */,
+				ACAF00B623188C280083AF17 /* MoviesLib.xcdatamodeld */,
 			);
 			path = MoviesLib;
 			sourceTree = "<group>";
@@ -150,6 +162,10 @@
 			files = (
 				AC04A4DF230CCC520089DB0C /* MovieTableViewCell.swift in Sources */,
 				AC04A4DD230CBADB0089DB0C /* MoviesTableViewController.swift in Sources */,
+				ACAF00BC231891FC0083AF17 /* Movie+image.swift in Sources */,
+				ACAF00B823188C280083AF17 /* MoviesLib.xcdatamodeld in Sources */,
+				ACAF00BA23188D100083AF17 /* UIViewController+Context.swift in Sources */,
+				ACAF00BE2318A4E50083AF17 /* MovieRegisterViewController.swift in Sources */,
 				AC6BB3262306161A000E3ECE /* ViewController.swift in Sources */,
 				AC6BB3242306161A000E3ECE /* AppDelegate.swift in Sources */,
 				AC04A4DB230CAD000089DB0C /* Movie.swift in Sources */,
@@ -350,6 +366,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ACAF00B623188C280083AF17 /* MoviesLib.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ACAF00B723188C280083AF17 /* MoviesLib.xcdatamodel */,
+			);
+			currentVersion = ACAF00B723188C280083AF17 /* MoviesLib.xcdatamodel */;
+			path = MoviesLib.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AC6BB31823061619000E3ECE /* Project object */;
 }
